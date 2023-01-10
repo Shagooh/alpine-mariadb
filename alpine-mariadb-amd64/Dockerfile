@@ -27,7 +27,7 @@ RUN mkdir /docker-entrypoint-initdb.d && \
     mkdir /scripts/pre-init.d && \
     chmod -R 755 /scripts
 
-EXPOSE 3306
+EXPOSE 3307
 
 VOLUME ["/var/lib/mysql"]
 
